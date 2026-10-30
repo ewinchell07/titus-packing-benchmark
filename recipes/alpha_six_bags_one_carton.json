@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "name": "titus_packing_alpha_six_bags_one_carton",
+  "bag_asset": "sea_salt_bag",
+  "box_asset": "lundberg_carton",
+  "bags": 6,
+  "boxes": 1,
+  "bag_region_xy_m": [
+    [
+      -0.48,
+      0.07
+    ],
+    [
+      -0.43,
+      0.38
+    ]
+  ],
+  "box_region_xy_m": [
+    [
+      0.12,
+      0.36
+    ],
+    [
+      -0.34,
+      0.35
+    ]
+  ],
+  "bag_yaw_deg": [
+    -25,
+    25
+  ],
+  "box_yaw_deg": [
+    85,
+    95
+  ],
+  "max_bag_layers": 6,
+  "layer_gap_m": 0.012,
+  "placement_gap_m": 0.008,
+  "dish_radius_m": 0.58,
+  "goal": "pack_into_primary",
+  "initialize_box_hold": false,
+  "camera": {
+    "eye_m": [
+      [
+        0.6,
+        0.7
+      ],
+      [
+        -1.5,
+        -1.4
+      ],
+      [
+        1.65,
+        1.75
+      ]
+    ],
+    "look_at_m": [
+      -0.2,
+      0,
+      0.9
+    ],
+    "focal_length_mm": [
+      26,
+      30
+    ]
+  },
+  "lighting": {
+    "dome_intensity": [
+      500,
+      700
+    ],
+    "key_intensity": [
+      1600,
+      2000
+    ]
+  }
+}

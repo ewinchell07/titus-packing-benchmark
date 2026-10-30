@@ -1,0 +1,29 @@
+{
+  "representation": "Fully dynamic effective packed-content volume; no carrier or attachments",
+  "source_tets_sha256": "d7e8980d1528ed185fec145ae922504b0f3854cb7380a426800bab72b43bfcc8",
+  "packed_tets_sha256": "3363ed75f931e5964a9011edf9c9d7e35b2fd7ae182a41a3f219f2b1563dadc8",
+  "mass_kg": 0.036,
+  "nodes": 510,
+  "tets": 1619,
+  "volume_m3": 0.0006259885520693546,
+  "tet_condition_percentiles": [
+    3.6021584283080177,
+    8.257433819952357,
+    12.175976449458066,
+    17.297789733938775
+  ],
+  "original_skin_to_packed_boundary_m": {
+    "p50": 0.0002818020406178519,
+    "p95": 0.000829476582776217,
+    "max": 0.002526681715222546
+  },
+  "original_printed_surface_changed": false,
+  "original_robot_changed": false,
+  "material": {
+    "E_pa": 50000,
+    "nu": 0.35,
+    "mu": 0.5,
+    "k_damp": 0.002
+  },
+  "qualification": "Representation receipt only; see the package qualification.json for physical task results. Effective contents are not measured material identification."
+}

@@ -1,0 +1,6 @@
+{
+  "source_state_sha256": "708f5b8477864f8bb4b34fd2db8c818d2fc849f37c5c3da0be087bdaf0b67677",
+  "source_time_s": 2.0000000000000324,
+  "jaw_clearance_added_m": 0.0005039288353174925,
+  "scope": "Initial relative grasp geometry only; no playback trajectory or state writes after reset."
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "units": "m",
+  "object_id": "bag_001",
+  "side": "right",
+  "source_frame": "synthetic_point_cloud_frame",
+  "gripper_name": "synthetic_test_gripper",
+  "gripper_config_id": "SYNTHETIC - not a YAM gripper calibration",
+  "frame_calibration_id": "SYNTHETIC - algebra fixture only",
+  "capture_id": "synthetic-capture-001",
+  "capture_time_s": 1.0,
+  "world_from_source": [[0, -1, 0, 0.4], [1, 0, 0, 0.2], [0, 0, 1, 0.9], [0, 0, 0, 1]],
+  "hand_from_grasp": [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0.08], [0, 0, 0, 1]],
+  "pregrasp_offset_grasp_m": [0, 0, -0.06],
+  "pregrasp_jaw_gap_m": 0.0660894
+}

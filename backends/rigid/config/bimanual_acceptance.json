@@ -1,0 +1,20 @@
+{
+  "required_box_clearance_above_entire_rotary_m": 0.01,
+  "maximum_box_upright_error_deg": 8.0,
+  "minimum_left_finger_box_force_N": 0.1,
+  "maximum_box_slip_relative_to_hand_m": 0.01,
+  "required_bag_hold_s": 2.0,
+  "minimum_bag_hold_clearance_m": 0.05,
+  "maximum_inverted_tetrahedra": 0,
+  "minimum_final_bag_inside_box_fraction": 1.0,
+  "maximum_final_bag_speed_mps": 0.03,
+  "maximum_released_right_finger_force_N": 0.02,
+  "minimum_final_bag_carton_contact_force_N": 0.05,
+  "required_final_settle_s": 2.0,
+  "fresh_reset_trials": 3,
+  "attachments_allowed": 0,
+  "object_pose_writes_after_reset_allowed": 0,
+  "object_external_control_forces_allowed": 0,
+  "maximum_box_rotation_relative_to_hand_deg": 8.0,
+  "box_slip_definition": "Motion of the box material point initially at the left TCP, measured in the actual left-hand frame; box-origin movement is reported separately."
+}

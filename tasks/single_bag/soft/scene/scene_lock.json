@@ -1,0 +1,28 @@
+{
+  "scene": "scene/single_bag_box.usda",
+  "movable_object_roots": [
+    "/World/Bag",
+    "/World/DashCarton"
+  ],
+  "bag_visual_meshes": 1,
+  "carton_rigid_bodies": 1,
+  "robot_articulations": 1,
+  "physical_acceptance": false,
+  "calibrated_robot_component": "assets/robot/robot.usda",
+  "calibrated_robot_files": {
+    "materials/dark_housing.usda": "080b031c702e63df376dfe81020e16d9357af3fc39d606e3049506502ccf2b01",
+    "materials/effective_housing_color.usda": "b377c0826cb7057150546d6e408c03426e778e9f1562f242ee717e506179696a",
+    "materials/refinement.usda": "b17b0c35baa819c3eb7fe6b061b3c3c34d4cc9da0b03a4be599517f5de64bbb2",
+    "physics/actuators.json": "469ec798b9595e1e255af67ec0cefadf2a26c9fc3f5acb88b45734910ebc1f19",
+    "physics/articulation.usdc": "ba5f61cd450bc6ea8b17c7d880aac9525a3b5373c0baea1320eb47faa55d34aa",
+    "physics/effort_limits.json": "c03285c23c79b447b4ba769aa9ae322a13f38d1972cbfd35c8956f73ca318ff8",
+    "physics/gripper_contacts.json": "81c4c187cc6284dd063e545ff07bc2cccf74fc0fb510b02b6c82a6f52d01e426",
+    "physics/joint_frames.urdf": "59867560e098f4964e3064d7ad1c04d38e5a48bb6d1e3cf2530bbc54008a7044",
+    "physics/joint_map.json": "c731068f393e3b0a9323e52fa113ee8cef6b054e41b16e461db232eb559b3e44",
+    "physics/validation.json": "e27fbea3c187f1d630e6b018a10d69a49cddcfcc62080910d74f1734cce05bdd",
+    "python/joint_map.py": "b38a5671dce0a8de23b60b1c2b732994a4d154292362f2bb537a7f1a2b38d918",
+    "robot.usda": "7b7049bc867e8c38ac0b0c7c3f3ffe567d625ae489f11084d32330e340ee156f",
+    "visual.usdc": "cc6a405c8982e123ba63aee389bc67986bf141208e9dd6ea688506fcab26c592"
+  },
+  "environment": "Original stationary rotary dish; no artificial tabletop"
+}

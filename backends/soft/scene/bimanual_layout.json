@@ -1,0 +1,48 @@
+{
+  "box_upright": true,
+  "terminal_flap_hinge_angle_deg": 2.1500000953674316,
+  "physical_rotary_mesh": "/World/RotaryTableV2/dish_collision",
+  "artificial_table_removed": true,
+  "task": "bimanual_rotary_pack",
+  "bag_pinch_xy_m": [
+    -0.4,
+    -0.26
+  ],
+  "initial_left_opening_m": -0.0018,
+  "left_grip_point_box_m": [
+    -0.08264847216615319,
+    0.06045039166259286,
+    0.2103596511317528
+  ],
+  "box_reset_xyz_m": [
+    -0.32,
+    0.14,
+    0.88
+  ],
+  "box_reset_quaternion_xyzw": [
+    0.0,
+    0.0,
+    0.7071067811865475,
+    0.7071067811865476
+  ],
+  "left_hand_rotation": [
+    [
+      0.05724348564633941,
+      0.037639371975694724,
+      0.9976504703694242
+    ],
+    [
+      -0.9910317459524636,
+      -0.11871464152472441,
+      0.06134258229051448
+    ],
+    [
+      0.12074461422966115,
+      -0.992214750729363,
+      0.030506172647496083
+    ]
+  ],
+  "reset_scope": "Upright carton at a contact-consistent left grasp with 0.5 mm jaw clearance; the original drives close and lift it. No supports or attachments.",
+  "rotary_table_source": "Original delivered RotaryTableV2 dish, exact triangle collision mesh, stationary for this case",
+  "carton": "One free rigid open carton; source printed panels and corrected terminal hinge pose; no flap articulation in this baseline"
+}

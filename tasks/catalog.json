@@ -1,0 +1,10 @@
+{
+  "single_bag": {
+    "description": "One Sea Salt bag, one carton, calibrated dual-arm robot and stationary rotary dish",
+    "bags": 1,
+    "boxes": 1,
+    "status": "validated",
+    "reference_trials_per_backend": 3,
+    "evidence": "evidence/single_bag/qualification.json"
+  }
+}

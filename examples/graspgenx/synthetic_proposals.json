@@ -1,0 +1,5 @@
+{
+  "grasps": [[[1, 0, 0, 0.1], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]],
+  "confidences": [0.75],
+  "gripper_name": "synthetic_test_gripper"
+}

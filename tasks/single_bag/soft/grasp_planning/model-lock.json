@@ -1,0 +1,12 @@
+{
+  "source_repository": "https://github.com/NVlabs/GraspGenX",
+  "source_commit": "b9429097728cb1c430dd78b92edf17ba318aad03",
+  "model": "adithyamurali/GraspGenXModel",
+  "revision": "7c834043c11a11417e31d6d5ea9355801e40a2c1",
+  "files": [
+    {"path":"release/gen/config.yaml","sha256":"16aedbdc23441a1db818261b865f55bd71451d6224fc514615e0d1ab744b7dcb"},
+    {"path":"release/gen/epoch_736.pth","sha256":"8b55f31cdb8340a573b4df27b027c15cff326bd6debcb389bf631d2aaab7ac44"},
+    {"path":"release/dis/config.yaml","sha256":"43cf8ea0ade67d938040bde0df318b3f4c9c19e4f88d97052dc175df2c28c8e7"},
+    {"path":"release/dis/epoch_1056.pth","sha256":"cbf3f3bdb2e4c03fca8486ed24de0e6a8a859e6bd22bce2f1434a610335abd3e"}
+  ]
+}

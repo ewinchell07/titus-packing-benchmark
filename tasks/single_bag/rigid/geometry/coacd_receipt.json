@@ -1,0 +1,247 @@
+{
+  "representation": "One freely dynamic native Isaac rigid body with CoACD convex collision pieces",
+  "coacd_version": "1.0.14",
+  "parameters": {
+    "threshold": 0.002,
+    "real_metric": true,
+    "max_convex_hull": 32,
+    "preprocess_mode": "off",
+    "resolution": 2000,
+    "mcts_nodes": 20,
+    "mcts_iterations": 100,
+    "mcts_max_depth": 3,
+    "pca": false,
+    "merge": true,
+    "decimate": true,
+    "max_ch_vertex": 64,
+    "seed": 0
+  },
+  "seconds": 7.3108103750273585,
+  "source": "Same watertight packed-content envelope used by the soft variant",
+  "source_sha256": "3363ed75f931e5964a9011edf9c9d7e35b2fd7ae182a41a3f219f2b1563dadc8",
+  "source_volume_m3": 0.0006259885520693545,
+  "mass_kg": 0.036,
+  "friction": 0.5,
+  "restitution": 0.0,
+  "contact_offset_m": 0.002,
+  "center_of_mass_m": [
+    0.0020039947508886284,
+    0.00038113436816032,
+    0.0007169418437027274
+  ],
+  "inertia_kg_m2": [
+    [
+      4.045119786876167e-05,
+      -8.606075285160214e-07,
+      1.4093431654008887e-07
+    ],
+    [
+      -8.606075285160214e-07,
+      7.095621417189395e-05,
+      6.606163543785262e-07
+    ],
+    [
+      1.4093431654008887e-07,
+      6.606163543785262e-07,
+      0.00010300006729398264
+    ]
+  ],
+  "hull_count": 32,
+  "hulls": [
+    {
+      "path": "/World/Bag/CoACD/hull_000",
+      "vertices": 44,
+      "faces": 84,
+      "volume_m3": 8.572338533738379e-06
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_001",
+      "vertices": 28,
+      "faces": 52,
+      "volume_m3": 2.6102416779999837e-06
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_002",
+      "vertices": 26,
+      "faces": 48,
+      "volume_m3": 3.5316198421955867e-06
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_003",
+      "vertices": 59,
+      "faces": 114,
+      "volume_m3": 1.82801521201193e-05
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_004",
+      "vertices": 49,
+      "faces": 94,
+      "volume_m3": 1.6317650789860068e-05
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_005",
+      "vertices": 64,
+      "faces": 124,
+      "volume_m3": 9.124416682857268e-05
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_006",
+      "vertices": 45,
+      "faces": 86,
+      "volume_m3": 5.073241087604093e-05
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_007",
+      "vertices": 58,
+      "faces": 112,
+      "volume_m3": 4.8976362226919486e-05
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_008",
+      "vertices": 50,
+      "faces": 96,
+      "volume_m3": 5.642023660790807e-05
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_009",
+      "vertices": 34,
+      "faces": 64,
+      "volume_m3": 9.264283732294453e-06
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_010",
+      "vertices": 44,
+      "faces": 84,
+      "volume_m3": 4.921817155706643e-05
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_011",
+      "vertices": 32,
+      "faces": 60,
+      "volume_m3": 1.966155921419315e-05
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_012",
+      "vertices": 34,
+      "faces": 64,
+      "volume_m3": 4.576717339692908e-06
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_013",
+      "vertices": 42,
+      "faces": 80,
+      "volume_m3": 1.1298420562796544e-05
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_014",
+      "vertices": 39,
+      "faces": 74,
+      "volume_m3": 4.925252964653066e-06
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_015",
+      "vertices": 46,
+      "faces": 88,
+      "volume_m3": 1.710920426854176e-05
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_016",
+      "vertices": 43,
+      "faces": 82,
+      "volume_m3": 5.007712597367543e-06
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_017",
+      "vertices": 48,
+      "faces": 92,
+      "volume_m3": 3.2335177800829298e-06
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_018",
+      "vertices": 41,
+      "faces": 78,
+      "volume_m3": 2.4237627214137804e-06
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_019",
+      "vertices": 38,
+      "faces": 72,
+      "volume_m3": 6.544520304878419e-06
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_020",
+      "vertices": 21,
+      "faces": 38,
+      "volume_m3": 1.8848361844836805e-06
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_021",
+      "vertices": 64,
+      "faces": 124,
+      "volume_m3": 3.126357574806058e-05
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_022",
+      "vertices": 63,
+      "faces": 122,
+      "volume_m3": 2.2711158898154335e-05
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_023",
+      "vertices": 16,
+      "faces": 28,
+      "volume_m3": 1.0771086554695203e-05
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_024",
+      "vertices": 11,
+      "faces": 18,
+      "volume_m3": 1.2803029945203341e-05
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_025",
+      "vertices": 39,
+      "faces": 74,
+      "volume_m3": 3.7826133958930964e-05
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_026",
+      "vertices": 39,
+      "faces": 74,
+      "volume_m3": 2.967679324704897e-05
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_027",
+      "vertices": 14,
+      "faces": 24,
+      "volume_m3": 7.618993858862416e-06
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_028",
+      "vertices": 55,
+      "faces": 106,
+      "volume_m3": 4.473671269047107e-05
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_029",
+      "vertices": 40,
+      "faces": 76,
+      "volume_m3": 8.312590889716943e-06
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_030",
+      "vertices": 41,
+      "faces": 78,
+      "volume_m3": 6.85533804708378e-06
+    },
+    {
+      "path": "/World/Bag/CoACD/hull_031",
+      "vertices": 29,
+      "faces": 54,
+      "volume_m3": 3.1141072018113345e-06
+    }
+  ],
+  "printed_surface_changed": false,
+  "calibrated_robot_changed": false,
+  "physics_qualified": false
+}

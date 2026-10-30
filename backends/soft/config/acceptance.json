@@ -1,0 +1,23 @@
+{
+  "scope": "Single source-shaped 36 g effective deformable bag; actual OpenYAM robot; contact-driven lift and passive release in Isaac Sim 6.2",
+  "physics_dt_s": 0.0016666666666666668,
+  "required_unsupported_clearance_m": 0.05,
+  "required_centroid_rise_m": 0.08,
+  "required_hold_s": 2.0,
+  "maximum_hold_slip_m": 0.015,
+  "required_release_drop_m": 0.06,
+  "maximum_final_speed_mps": 0.03,
+  "maximum_support_penetration_m": 0.003,
+  "maximum_inverted_tetrahedra": 0,
+  "reset_trials": 3,
+  "assistance": {
+    "gripper_bag_attachments": false,
+    "object_pose_or_velocity_writes_after_reset": false,
+    "node_position_or_velocity_writes_after_reset": false,
+    "object_forces_or_torques": false,
+    "placement_freeze": false,
+    "gravity_disabled": false,
+    "kinematic_gripper_or_robot_links": false
+  },
+  "qualification": "Provisional engineering test thresholds; no measured material or hardware-fidelity claim"
+}

@@ -1,0 +1,9 @@
+{
+  "vertices": 23042,
+  "rest_reconstruction_max_abs_m": 8.066464163292153e-17,
+  "p95_boundary_offset_m": 0.000829476582776217,
+  "max_boundary_offset_m": 0.002526681715222546,
+  "tet_sha256": "3363ed75f931e5964a9011edf9c9d7e35b2fd7ae182a41a3f219f2b1563dadc8",
+  "binding": "Nearest surface triangle with local-frame offset; original topology, UVs and printing retained",
+  "physical_state_writes": 0
+}

@@ -1,0 +1,77 @@
+{
+  "release": "alpha-v0.2.0",
+  "checked_at": "2026-10-30T17:52:36.735928+00:00",
+  "upstream_manifest_files_verified_before_copy": 1766,
+  "runtime_and_asset_bytes_unchanged": true,
+  "upstream_changes": [
+    "docs/EVALUATION.md: replace internal qualification/customer-plan prose with alpha scope"
+  ],
+  "new_runtime_code": false,
+  "cpu_unit_tests": {
+    "passed": 18,
+    "failed": 0
+  },
+  "policy_contract": {
+    "passed": true,
+    "checks": [
+      "privilege boundary",
+      "explicit oracle",
+      "freeze and held-command timing",
+      "integer ticks",
+      "action chunks",
+      "gripper target observations"
+    ]
+  },
+  "recipe_generation": {
+    "soft": {
+      "passed": true,
+      "seed": 42,
+      "bags": 6,
+      "boxes": 1
+    },
+    "rigid": {
+      "passed": true,
+      "seed": 42,
+      "bags": 6,
+      "boxes": 1
+    },
+    "configuration_sha256": "5b0ac4d1024d5fff7a74f9258681efaf8913b10e1bb48baeb32114c8c19bdc35"
+  },
+  "usd_dependency_check": {
+    "soft": {
+      "layers": 12,
+      "assets": 19,
+      "unresolved": []
+    },
+    "rigid": {
+      "layers": 13,
+      "assets": 19,
+      "unresolved": []
+    }
+  },
+  "native_gpu_run_performed_for_this_release": false,
+  "credential_pattern_scan": "No credential-like tokens, private evaluation host addresses, or author-specific home paths detected in scanned text files. This is a bounded pattern scan, not a comprehensive security audit.",
+  "dataset_payloads_modified": false,
+  "dataset_gates_modified": false,
+  "source_evidence_recordings_included": false,
+  "license": "MIT",
+  "license_scope": "Titus scene code, documentation and Titus-owned scene assets; third-party components retain their licenses",
+  "new_distribution_code": "scripts/fetch_assets.py; checks immutable revision, archives, members and refuses modified destinations",
+  "backend_manifest_hash_checks": {
+    "backends/soft": 1616,
+    "tasks/single_bag/soft": 1618,
+    "backends/rigid": 67,
+    "tasks/single_bag/rigid": 70
+  },
+  "source_split_changes": [
+    "README.md",
+    "docs/BACKGROUND.md",
+    "docs/CONTRIBUTING.md",
+    "docs/SETUP.md",
+    "release.json"
+  ],
+  "manual_review": "Local source and packaging review; no independent reviewer or new GPU run.",
+  "asset_revision": "eb3623a762916eddb74ced4e8b4dfe25462034a3",
+  "code_and_data_split": true,
+  "changes_since_alpha_v0_1_1": "Code/data distribution split; exact physical assets, native runtime sources and dependency snapshot retained."
+}

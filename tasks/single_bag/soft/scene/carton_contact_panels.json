@@ -1,0 +1,155 @@
+{
+  "panel_colliders": [
+    {
+      "original": "/World/DashCarton/LundbergMinis_Controls/CartonBody/Collision_Wall_0",
+      "proxy": "/World/DashCarton/ContactPanels/panel_00",
+      "source_dimensions_m": [
+        0.0007999986410140991,
+        0.17691245675086975,
+        0.20999999344348907
+      ],
+      "dimensions_m": [
+        0.001,
+        0.17691245675086975,
+        0.20999999344348907
+      ]
+    },
+    {
+      "original": "/World/DashCarton/LundbergMinis_Controls/CartonBody/Collision_Wall_1",
+      "proxy": "/World/DashCarton/ContactPanels/panel_01",
+      "source_dimensions_m": [
+        0.1378999948501587,
+        0.0007999986410140991,
+        0.20999999344348907
+      ],
+      "dimensions_m": [
+        0.1378999948501587,
+        0.001,
+        0.20999999344348907
+      ]
+    },
+    {
+      "original": "/World/DashCarton/LundbergMinis_Controls/CartonBody/Collision_Wall_2",
+      "proxy": "/World/DashCarton/ContactPanels/panel_02",
+      "source_dimensions_m": [
+        0.0007999986410140991,
+        0.17691245675086975,
+        0.20999999344348907
+      ],
+      "dimensions_m": [
+        0.001,
+        0.17691245675086975,
+        0.20999999344348907
+      ]
+    },
+    {
+      "original": "/World/DashCarton/LundbergMinis_Controls/CartonBody/Collision_Wall_3",
+      "proxy": "/World/DashCarton/ContactPanels/panel_03",
+      "source_dimensions_m": [
+        0.1378999948501587,
+        0.0007999986410140991,
+        0.20999999344348907
+      ],
+      "dimensions_m": [
+        0.1378999948501587,
+        0.001,
+        0.20999999344348907
+      ]
+    },
+    {
+      "original": "/World/DashCarton/LundbergMinis_Controls/CartonBody/Collision_ClosedEnd",
+      "proxy": "/World/DashCarton/ContactPanels/panel_04",
+      "source_dimensions_m": [
+        0.1378999948501587,
+        0.17691245675086975,
+        0.001200000086100772
+      ],
+      "dimensions_m": [
+        0.1378999948501587,
+        0.17691245675086975,
+        0.001200000086100772
+      ]
+    },
+    {
+      "original": "/World/DashCarton/LundbergMinis_Controls/RightSideFlap/RightSideFlap_Fold/Collision_PouchSideFlap",
+      "proxy": "/World/DashCarton/ContactPanels/panel_05",
+      "source_dimensions_m": [
+        0.000839999906020239,
+        0.13809999823570251,
+        0.07819999754428864
+      ],
+      "dimensions_m": [
+        0.001,
+        0.13809999823570251,
+        0.07819999754428864
+      ]
+    },
+    {
+      "original": "/World/DashCarton/LundbergMinis_Controls/LeftSideFlap/LeftSideFlap_Fold/Collision_InformationSideFlap",
+      "proxy": "/World/DashCarton/ContactPanels/panel_06",
+      "source_dimensions_m": [
+        0.000839999906020239,
+        0.13809999823570251,
+        0.07819999754428864
+      ],
+      "dimensions_m": [
+        0.001,
+        0.13809999823570251,
+        0.07819999754428864
+      ]
+    },
+    {
+      "original": "/World/DashCarton/LundbergMinis_Controls/PrintedLid/PrintedLid_Fold/TerminalTuck_Hinge/TerminalTuck_Fold/Collision_RoundedTerminalTuck",
+      "proxy": "/World/DashCarton/ContactPanels/panel_07",
+      "source_dimensions_m": [
+        0.0008400000224355608,
+        0.13197211921215057,
+        0.02215000073192641
+      ],
+      "dimensions_m": [
+        0.001,
+        0.13197211921215057,
+        0.02215000073192641
+      ]
+    },
+    {
+      "original": "/World/DashCarton/LundbergMinis_Controls/PrintedLid/PrintedLid_Fold/Collision_PrintedClosurePanel_ScoreShoulder",
+      "proxy": "/World/DashCarton/ContactPanels/panel_08",
+      "source_dimensions_m": [
+        0.002544147977459943,
+        0.17489999532699585,
+        0.0016368000069633126
+      ],
+      "dimensions_m": [
+        0.002544147977459943,
+        0.17489999532699585,
+        0.0016368000069633126
+      ]
+    },
+    {
+      "original": "/World/DashCarton/LundbergMinis_Controls/PrintedLid/PrintedLid_Fold/Collision_PrintedClosurePanel",
+      "proxy": "/World/DashCarton/ContactPanels/panel_09",
+      "source_dimensions_m": [
+        0.0008598817512392998,
+        0.17489999532699585,
+        0.1347631992539391
+      ],
+      "dimensions_m": [
+        0.001,
+        0.17489999532699585,
+        0.1347631992539391
+      ]
+    }
+  ],
+  "mass_kg": 0.08999999612569809,
+  "minimum_panel_thickness_m": 0.001,
+  "printed_geometry_changed": false,
+  "explanation": "Direct children of the single dynamic body; box primitives replace thin cooked convex panels",
+  "physical_acceptance": false,
+  "initial_position_m": [
+    -0.32,
+    0.14,
+    0.88
+  ],
+  "pose_description": "Upright with 90-degree yaw; terminal flap corrected from source hinge frames"
+}

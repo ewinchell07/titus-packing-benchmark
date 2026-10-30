@@ -1,0 +1,19 @@
+{
+  "bags": [
+    {
+      "center_xy_m": [
+        -0.4,
+        -0.26
+      ],
+      "yaw_deg": 18.0
+    },
+    {
+      "center_xy_m": [
+        -0.4,
+        -0.04
+      ],
+      "yaw_deg": 90.0
+    }
+  ],
+  "scope": "Two identical Sea Salt bags at fixed reachable reset locations; free after initialization."
+}
