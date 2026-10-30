@@ -17,7 +17,7 @@
 | Robot teleop: 60 segments / 162,143 frames at 60 Hz | [Existing LeRobot dataset](https://huggingface.co/datasets/titus-robots/rotary-table-rice-cakes) |
 | UMI: 21 retained bimanual episodes / 471 seconds | [Existing UMI dataset](https://huggingface.co/datasets/titus-robots/trumi-box-bags-2026-10-16) |
 
-Release **alpha-v0.2.0** separates code from large payloads. `assets.lock.json` pins the exact Hugging Face commit, archive hashes, and every asset/dependency file hash. Physics code and physical assets are unchanged from the previous alpha and scene SDK **2026.10.28.8**. The only new executable component is the download-and-verification utility.
+Release **alpha-v0.2.1** separates code from large payloads. `assets.lock.json` pins the exact Hugging Face commit, archive hashes, and every asset/dependency file hash. Physics code, geometry and physical properties are unchanged from scene SDK **2026.10.28.8**. This patch sanitizes scene documentation and custom metadata namespaces and updates the corresponding integrity hashes.
 
 The scene assets are public. The two existing demonstration datasets retain their access-approval settings, original data, and MIT licenses. They are not downloaded by the scene setup command.
 
@@ -26,7 +26,7 @@ The scene assets are public. The two existing demonstration datasets retain thei
 Use Python **3.10+** for downloading and the lightweight SDK client. Native simulation requires **Linux x86-64, an NVIDIA GPU, and a separately installed pip-based Isaac Sim 6.2.0.0 environment with Python 3.12**. macOS can inspect assets and run CPU checks but cannot execute the supplied native simulator. [Full setup](docs/SETUP.md).
 
 ```bash
-git clone --branch alpha-v0.2.0 https://github.com/ewinchell07/titus-packing-benchmark.git
+git clone --branch alpha-v0.2.1 https://github.com/ewinchell07/titus-packing-benchmark.git
 cd titus-packing-benchmark
 python3 -m venv .venv
 source .venv/bin/activate

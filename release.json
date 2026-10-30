@@ -1,10 +1,10 @@
 {
-  "release": "alpha-v0.2.0",
+  "release": "alpha-v0.2.1",
   "release_date": "2026-10-30",
   "environment_repo": "titus-robots/titus-packing-benchmark-alpha",
   "upstream_sdk_release": "2026.10.28.8",
   "upstream_sdk_zip_sha256": "a3b56c9f32b3adae41bbdaa6e358c6b0eac83f8e8afe727f068bb1c938e4a2df",
-  "runtime_and_physical_assets": "unchanged from upstream SDK; no campaign overlay",
+  "runtime_and_physical_assets": "Original simulation runtime, geometry and physics properties; scene documentation and custom metadata namespaces sanitized.",
   "starter_recipe": "recipes/alpha_six_bags_one_carton.json",
   "starter_initialize_box_hold": false,
   "teleoperation": {
@@ -29,7 +29,8 @@
   "license": "MIT",
   "license_scope": "Titus scene code, documentation and Titus-owned scene assets; third-party components retain their licenses",
   "code_repository": "https://github.com/ewinchell07/titus-packing-benchmark",
-  "code_tag": "alpha-v0.2.0",
+  "code_tag": "alpha-v0.2.1",
   "distribution": "GitHub source code; HF scene assets and separate pinned runtime dependencies; existing HF demonstrations unchanged",
-  "changes_since_alpha_v0_1_1": "Distribution split and checksum-verifying downloader; simulation code and physical assets unchanged."
+  "changes_since_alpha_v0_1_1": "Distribution split and checksum-verifying downloader; simulation code and physical assets unchanged.",
+  "changes_since_alpha_v0_2_0": "Sanitize scene documentation and custom metadata namespaces; refresh archive, asset and backend integrity pins. No simulation behavior changes."
 }
